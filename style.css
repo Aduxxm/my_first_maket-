@@ -1,0 +1,796 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ @import url('https://fonts.cdnfonts.com/css/gilroy-bold');            
+
+
+.container{
+    grid-area: container;
+    width: 1460px;
+    height: 4759px;
+    margin: 50px auto;
+    border: 5px solid blue;
+}
+
+.languageee{
+    display: none;
+}
+
+.ccnt{
+    display: none;
+}
+
+.divka{
+    display: none;
+}
+
+.poloska{
+    display: none;
+}
+
+.home{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px; 
+}
+
+.aboutme{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.skills{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: rgba(130, 130, 130, 1);
+    
+}
+
+.portfolio{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.contactss{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: rgba(130, 130, 130, 1);    
+}
+
+.Container{
+    grid-area: Container;
+    width: 1100px;
+    height: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line{
+    width: 940.6px;
+    border: .1px solid rgba(130, 130, 130, 1); 
+    margin: 40px auto;   
+}
+
+.dn{
+    grid-area: dn;
+    width: 123.51px;
+    height: 118.17px;
+    font-family: Gilroy-Bold;
+    font-size: 47px;
+    margin: 20px 0 0 250px;
+    text-align: left;
+
+}
+
+.ux{
+    grid-area: ux;
+    width: 155.65px;
+    height: 44.06px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    color: black;
+    margin: -55px 0 0 650px;
+    text-align: left;
+
+}
+
+
+
+.language{
+    width: 65px;
+    height: 20.06px;
+    rotate: 270deg;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    margin: -50px 0 0 1150px;
+}
+
+.container>img{
+    margin: 100px 0 0 250px;
+
+}
+
+.ecran{
+    grid-area: ecran;
+    width: 1435px;
+    height: 506px;
+    background: rgba(246, 246, 246, 1);
+    position: absolute;
+    margin: 100px 0 0 0;
+}
+
+.ab{
+    grid-area: ab;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+
+.txt{
+    width: 485.34px;
+    height: 218px;    
+    font-family: Gilroy-Medium;
+    font-size: 18px;;
+    text-align: center;
+    margin: 130px 0 0 480px;
+}
+
+.txtt{
+    margin: 40px 0 0 0;
+}
+
+.txttt{
+    margin: 40px 0 0 0;
+}
+
+.skil{
+    width: 1440px;
+    height: 506px;
+    margin: 610px 0 0 0;
+    border: 1px solid white;
+}
+
+.ski{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.ispgs{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.pscontainer{
+    width: 1440px;
+    height: 206.29px;
+    border: 1px solid white;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pscont{
+    width: 166.46px;
+    height: 206.29px;    
+    border: 1px solid white;
+    
+}
+
+.dark{
+    width: 89.07px;
+    height: 88.41px;    
+    margin: 0 0 0 40px;
+    position: relative;
+}
+
+.dark::after {
+    content: "";
+    /*  */
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  
+    width: 85px;
+    height: 85px;
+  
+    background-image: url('./img/psvector.png');
+  
+    background-size: 85px 85px;
+    
+  }
+
+  .adph{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+  }
+
+  .star{
+    width: 166.46px;
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 20px 0 0 0;
+  }
+
+.aicont{
+    width: 166.46px;
+    height: 206.27px;
+    border: 1px solid white;    
+}
+
+.darkk{
+    width: 89.07px;
+    height: 88.41px;    
+    margin: 0 0 0 40px; 
+    position: relative;
+}
+
+.darkk::after {
+    content: "";
+    /*  */
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  
+    width: 85px;
+    height: 85px;
+  
+    background-image: url('./img/aivector.png');
+  
+    background-size: 85px 85px;
+    
+  }
+
+  .adph1{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: center;
+    margin: 2px 0 0 0;
+    color: rgba(130, 130, 130, 1);
+  }
+
+.aecont{
+    width: 166.46px;
+    height: 206.27px;
+    border: 1px solid white;    
+}
+
+.darkkk{
+    width: 89.07px;
+    height: 88.41px;    
+    margin: 0 0 0 40px; 
+    position: relative;
+}
+
+.darkkk::after {
+    content: "";
+    /*  */
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  
+    width: 85px;
+    height: 85px;
+  
+    background-image: url('./img/aevector.png');
+  
+    background-size: 85px 85px;
+    
+  }
+
+  .adph2{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0 0 0;
+    color: rgba(130, 130, 130, 1);
+  }
+
+.figma{
+    width: 166.46px;
+    height: 206.27px;
+    border: 1px solid white;    
+}
+
+.figm{
+    width: 89.07px;
+    height: 88.41px;    
+    margin: 0 0 0 40px; 
+  
+}
+
+.adphh{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: center;
+    margin: 22px 0 0 -20px;
+    color: rgba(130, 130, 130, 1);
+  }
+
+  .prt{
+    width: 1445px;
+    height: 2253px;
+    background: rgba(246, 246, 246, 1);
+    margin: 100px 0 0 0;
+    padding: 100px 0 0 0;
+  }
+
+.portfolioo{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    color: black;   
+}
+
+.sloi8{
+    margin: 50px 0 0 150px;
+}
+
+
+.reedok{
+    margin: 50px 0 0 330px;
+}
+
+
+.ofsh{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.rsc{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 0 0;
+
+}
+
+.concept{
+    margin: 80px 0 0 330px;
+}
+
+.cnpt{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 0 0;
+
+}
+
+.contacts{
+    width: 1445px;
+    height: 600px;
+    
+}
+    
+.onctcts{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    color: black;
+    margin: 100px 0 0 0;
+}
+
+.wtc{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin: 20px 0 0 0;
+}
+
+.sm{
+    font-family:  Gilroy-Medium;
+    width: 180.5px;
+    height: 42px;
+    background: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 630px;
+}
+
+.icons{
+    width: 342.18px;
+    height: 40.92px;
+    margin: 30px 0 0 560px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lemon{
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    color: rgba(130, 130, 130, 1);
+}
+
+.picture img{
+    margin: 60px 0 0 250px;
+}
+
+@media screen and (max-width: 475px){
+    .Container{
+        display: none;
+    }
+
+    .container{
+        width: 375px;
+        height: 4435px;
+        border: 1px solid white;
+    }
+    
+    .poloska{
+       display: block;
+       position: relative;
+       top: 30px;
+       left: 300px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .languageee{
+        display: none;
+    }
+
+    .dn{
+        margin: 0 0 0 20px;
+    }
+
+    .ux{
+        margin: 20px 0 50px 20px;
+    }
+
+    .picture img{
+        margin: 20px 0 0 20px;
+    }
+
+    .ecran{
+        display: block;
+        width: 375px;
+        height: 491px;
+    }
+
+    .ab{
+        margin: -50px 0 0 0;
+    }
+
+    .txt{
+        width: 375px;
+        height: 19.19px;
+        margin: 140px 0 0 0px;
+        
+    }
+
+    .skil{
+        width: 375px;
+        height: 1000px;
+        position: relative;
+        top: -80px;
+    }
+
+    .pscont{
+        width: 166.46px;
+        height: 206.29px;    
+        border: 1px solid white;
+        position: absolute;
+        top: 300px;
+        left: 100px;
+        
+    }
+    
+
+    .dark::after {
+        content: "";
+        /*  */
+        
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      
+        width: 85px;
+        height: 85px;
+      
+        background-image: url('./img/psvector.png');
+      
+        background-size: 85px 85px;
+        
+      }
+
+      .aicont{
+        width: 166.46px;
+        height: 206.27px;
+        border: 1px solid white;  
+        position: absolute;
+        top: 600px; 
+        left: 100px;
+    }
+
+    .darkk::after {
+        content: "";
+        /*  */
+        
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      
+        width: 85px;
+        height: 85px;
+      
+        background-image: url('./img/aivector.png');
+      
+        background-size: 85px 85px;
+        
+      }
+
+      .aecont{
+        width: 166.46px;
+        height: 206.27px;
+        border: 1px solid white; 
+        position: absolute;
+        top: 900px;
+        left: 100px; 
+    }
+
+    .darkkk::after {
+        content: "";
+        /*  */
+        
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      
+        width: 85px;
+        height: 85px;
+      
+        background-image: url('./img/aevector.png');
+      
+        background-size: 85px 85px;
+        
+      }
+
+    .figma{
+        width: 166.46px;
+        height: 206.27px;
+        border: 1px solid white;
+        position: absolute;
+        top: 1200px;
+        left: 100px;    
+    }
+     
+    .prt{
+        width: 375px;
+        height: 2253px;
+        background: rgba(246, 246, 246, 1);
+        margin: 300px 0 0 0;
+        padding: 100px 0 0 0;
+      }
+
+      .sloi8 img{
+        width: 316px;
+        height: 171px;
+        margin: 0 0 0 -100px;
+      }
+
+      .reedok img{
+        width: 316px;
+        height: 171px;
+        margin: 0 0 0 -300px;
+      }
+
+      .concept img{
+        width: 316px;
+        height: 171px;
+        margin: 0 0 0 -300px;
+      }
+
+      .contacts{
+        width: 375px;
+        position: relative;
+        top: -1000px;
+      }
+
+      .sm{
+        font-family:  Gilroy-Medium;
+        width: 180.5px;
+        height: 42px;
+        background: black;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 100px;
+    }
+    
+    .icons{
+        width: 342.18px;
+        height: 40.92px;
+        margin: 30px 0 0 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+ }
+
+ @media screen and (max-width: 375px){
+
+    .container{
+        width: 375px;
+        height: 812px;
+        border: 1px solid black;
+    }
+
+    .poloska{
+        display: none;
+     }
+
+    .dn{
+        display: none;
+    }
+
+    .ux{
+        display: none;
+    }
+
+    .picture img{
+        display: none;
+    }
+
+    .ab{
+        display: none;
+    }
+
+    .txt{
+        display: none;
+    }
+
+    .ecran{
+        display: none;
+    }
+
+    .skil{
+        display: none;
+    }
+
+    .prt{
+        display: none;
+    }
+
+    .Container{
+        width: 375px;
+        height: 100px;
+        border: 1px solid black;
+    }
+
+    .home{
+        font-family: 'Gilroy-Bold';
+        font-size: 18px; 
+
+    }
+    
+    .aboutme{
+        font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        color: rgba(130, 130, 130, 1);
+    }
+    
+    .skills{
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        color: rgba(130, 130, 130, 1);
+        
+    }
+    
+    .portfolio{
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        color: rgba(130, 130, 130, 1);
+    }
+
+    .contacts{
+        display: none;
+    }
+    
+    .contactsss{
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        color: rgba(130, 130, 130, 1);    
+    }
+
+    .divka{
+        display: block;
+        position: absolute;
+        top: 110px;
+        left: 300px;
+    }
+
+    .ccnt{
+        display: block;
+    }
+
+    .homee{
+        font-family: 'Gilroy-Bold';
+        font-size: 34px; 
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+    
+    .aboutmee{
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        color: rgba(130, 130, 130, 1);
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+    
+    .skillss{
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        color: rgba(130, 130, 130, 1);
+        position: relative;
+        top: 150px;
+        left: 20px;
+        
+    }
+    
+    .portfolioo{
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        color: rgba(130, 130, 130, 1);
+        position: relative;
+        top: 200px;
+        left: -100px;
+    }
+    
+    .contactsss{
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        color: rgba(130, 130, 130, 1);    
+        position: relative;
+        top: 250px;
+        left: 20px;
+    }
+
+    .language{
+        width: 200px;
+        rotate: 90deg;
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        text-align: left;
+        color: black;
+        position: relative;
+        top: 550px;
+        left: -900px;
+    }
+
+ }
